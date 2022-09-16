@@ -1,0 +1,15 @@
+@media screen and (max-device-width: 412px) {
+    .log-component{
+        width: 400px !important;
+    }
+    .form-component{
+        width: 370px;
+      
+    }
+    .registerdropdown{
+        position: relative !important;
+        left: 27px !important;
+    }
+     
+ 
+ }

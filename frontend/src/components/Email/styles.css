@@ -1,0 +1,75 @@
+  h2 {
+    text-align: center;
+    margin: 50px 0;
+    color: #386c3d;
+    font-size: 47px;
+    font-family: "Quicksand", sans-serif;
+    margin-top: 40px !important;
+  }
+  @media (max-width: 540px) {
+    h2 {
+      font-size: 28px;
+      margin: 30px 0;
+    }
+  }
+form section.left {
+  float: left;
+}
+form section.right {
+  float: right;
+}
+  form section .input-container textarea {
+    height: 212px;
+    padding: 15px 10px;
+    resize: none;
+  }
+  @media (max-width: 992px) {
+    form {
+      padding: 0 5%;
+    }
+  }
+  @media (max-width: 768px) {
+    form {
+      margin-bottom: 50px;
+    }
+    form section {
+      width: 100%;
+      margin: 0;
+    }
+    form section.left {
+      margin-bottom: -30px;
+    }
+    form .send-container {
+      margin-right: 0;
+      margin-top: 15px;
+    }
+    form .send-container input {
+      width: 100%;
+    }
+  }
+  form:after {
+    content: "";
+    display: block;
+    clear: both;
+  }
+.bg {
+  animation:slide 3s ease-in-out infinite alternate;
+  background-image: linear-gradient(-60deg,  rgba(156,252,248,1) 11.2%, rgba(110,123,251,1) 91.1%);
+  bottom:0;
+  left:-50%;
+  opacity:.5;
+  position:fixed;
+  right:-50%;
+  top:0;
+  z-index:-1;
+}
+
+.bg2 {
+  animation-direction:alternate-reverse;
+  animation-duration:4s;
+}
+
+.bg3 {
+  animation-duration:5s;
+}
+

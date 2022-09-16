@@ -1,0 +1,153 @@
+.form-component{
+    height: 600px;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    background-color:whitesmoke;
+    top: 55%; left: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    padding: 15px;
+    border-radius:20px;
+}
+.form_field{
+    width: 75%;
+    padding: 10px;
+    margin-right: 40px;
+    margin-top: 15px;
+}
+.buttons{
+    width: 200px;
+    margin: 25px 50px 0;
+}
+.form_dropdown
+{
+    width: 50%;
+    margin-left: 40px;
+    padding: 5px;
+    text-align: center;
+}
+input{
+    border: 1px solid grey;
+}
+.bg {
+    animation:slide 3s ease-in-out infinite alternate;
+   background-image: gradient(-60deg, rgba(156,252,248,1) 11.2%, rgba(110,123,251,1) 91.1%)  ;
+   bottom:0;
+    left:-50%;
+    opacity:.5;
+    position:fixed;
+    right:-50%;
+    top:0;
+    z-index:-1;
+  }
+  
+  .bg2 {
+    animation-direction:alternate-reverse;
+    animation-duration:4s;
+  }
+  
+  .bg3 {
+    animation-duration:5s;
+  }
+  .buttons{
+    width: 125px;
+    margin: 25px 50px 0;
+}
+.log-component{
+    height: 320px;
+    border-radius:20px;
+    width: 500px;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    background-color:#ffffff;
+    top: 50%; left: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    padding: 20px;
+}
+h1 {
+    font-family:monospace;
+    color: navy;
+  }
+
+  
+h4{
+    color: crimson;
+  }h2{
+    color: #0B4524;
+  }
+  
+
+  @keyframes slide {
+    0% {
+      transform:translateX(-25%);
+    }
+    100% {
+      transform:translateX(25%);
+    }
+  }
+
+  .profile-component{
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;    background-color:whitesmoke;
+    top: 50%; left: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    padding: 20px;
+    width: 600px;
+}
+.email-component{
+  top: 50%; left: 50%;
+  transform: translate(-50%,-50%);
+  position: absolute;
+  padding: 20px;
+  align-items: center;
+  width: 650px !important;
+}
+
+.heading{
+  padding-top: 30px;
+}
+
+.yesNoButtons{
+ margin: 10px;
+}
+
+
+@media screen and (max-device-width: 412px) {
+  .table{
+      width: 150px !important;
+      font-size: 10px;
+      padding: 5px;
+      position: relative;
+      left: -110px;
+  }
+  .email-component{
+   
+    padding: 20px;
+    align-items: center;
+    width: 350px !important;
+  
+  }
+  
+  .email-form{
+    width: 100%;
+    padding: 15px;
+  }
+  .firstinput{
+    padding: 20px;
+    align-items: center;
+    width: 300px !important;
+    position: relative;
+    left: 8px;
+  }
+  .fourthinput{
+    margin-bottom: 5px;
+  }
+  .emailbutton{
+    margin-top: 5px;
+  }
+ .text-area{
+   position: relative;
+   top: 100px;
+ }
+}

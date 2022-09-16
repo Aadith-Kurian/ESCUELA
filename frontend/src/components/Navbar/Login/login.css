@@ -1,0 +1,17 @@
+
+@media screen and (max-device-width: 412px) {
+   .log-component{
+       width: 350px !important;
+
+   }
+   .form_field{
+       width: 300px;
+       position: relative;
+       left: 7px;
+   }
+    .loginbutton{
+        position: relative;
+        top:-20px
+    }
+
+}

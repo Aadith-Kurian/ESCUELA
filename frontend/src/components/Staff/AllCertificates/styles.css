@@ -1,0 +1,35 @@
+.all-certificate-component{
+    margin-top: 80px;
+}
+.all-single-certificates{
+    border: 1px navy solid;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 30px;
+    background-color: azure;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+}
+
+.all-data{
+    display: grid;
+    margin: 10px;
+    grid-template-columns: auto auto auto;
+}
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+li{
+    list-style: none;
+}
+
+@media screen and (max-device-width: 412px) {
+    .all-data{
+        display: grid;
+        margin: 7px;
+        grid-template-columns:  auto;
+    }
+  }

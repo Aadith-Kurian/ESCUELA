@@ -1,0 +1,42 @@
+.input-component{
+    top: 50%; left: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    background-color: aliceblue;
+    padding: 60px;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.form_field{
+    width: 90%;
+    padding: 10px;
+    margin-right: 40px;
+    margin-top: 15px;
+}
+.inputheading{
+    color: crimson ;
+    text-align: center;
+}
+
+@media screen and (max-device-width: 412px) {
+    .input-component{
+      width: 350px;
+      margin: 10px;
+    }
+    .picuploadform{
+        width: 270px;
+        position: relative;
+        left: -40px;
+    }
+    .picuploadforminput{
+        width: 10px !important;
+        position: relative;
+        left: -40px;
+    }
+    .file-upload{
+        width: 100px;
+    }
+     
+    input[type=file] { width: 270px; border: 1px solid grey; }
+
+  }

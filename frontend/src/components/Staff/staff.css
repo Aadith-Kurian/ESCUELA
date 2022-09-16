@@ -1,0 +1,9 @@
+@media screen and (max-device-width: 412px) {
+    .content{
+        width:350px
+    }
+     .modal{
+         width: 350px
+     }
+ 
+ }
